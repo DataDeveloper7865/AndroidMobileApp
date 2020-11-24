@@ -47,7 +47,7 @@ Each of the following needs to be displayed by the application on a separate scr
      notes for the selected course
      sharing features (e.g., email, SMS)
  
- ------------------------------------------------------------------------REQUIREMENTS---------------------------------------------------------------------------
+ --------------------------------------------------------------REQUIREMENTS------------------------------------------------------------------
  
  A. Create an Android (version 4.0 or higher) mobile application with the following functional requirements:
   Include the following information for each term:
