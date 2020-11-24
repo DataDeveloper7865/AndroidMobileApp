@@ -2,7 +2,7 @@
 
 This is a mobile application that was developed for Android platforms using Java. This was a school assignment and the requirements for the project can be found below.
 
-------------------------------------------------------------------------INTRODUCTION---------------------------------------------------------------------------
+--------------------------------------------------------------INTRODUCTION------------------------------------------------------------
 
 As a competent mobile application developer, your understanding of mobile application structure and design will help you to develop applications to meet customer requirements. The following project to develop a student scheduler/student progress tracking application, will help you to apply these skills in a familiar, real-world scenario. This task will allow you to demonstrate your ability to apply the skills learned in the course.
 
