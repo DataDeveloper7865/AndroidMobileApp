@@ -1,0 +1,243 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.wguc196stephenw"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+11-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:7:5-78
+11-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:7:22-75
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:8:5-81
+12-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:9:5-80
+13-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:9:22-77
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:10:5-66
+14-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:10:22-63
+15
+16    <application
+16-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:12:5-116:19
+17        android:allowBackup="true"
+17-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:13:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\Stephen\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:14:9-43
+21        android:label="@string/term_edit"
+21-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:15:9-42
+22        android:roundIcon="@mipmap/ic_launcher"
+22-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:16:9-48
+23        android:supportsRtl="true"
+23-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:17:9-35
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:18:9-40
+25        <receiver
+25-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:19:9-28:20
+26            android:name="com.example.wguc196stephenw.NotificationReceiver"
+26-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:20:13-76
+27            android:enabled="true"
+27-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:21:13-35
+28            android:exported="true" >
+28-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:22:13-36
+29            <intent-filter>
+29-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:23:13-27:29
+30
+31                <!-- The actions you wish to listen to, below is an example -->
+32                <action android:name="android.intent.action.BOOT_COMPLETED" />
+32-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:26:17-79
+32-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:26:25-76
+33            </intent-filter>
+34        </receiver>
+35
+36        <activity
+36-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:30:9-37:20
+37            android:name="com.example.wguc196stephenw.AssessmentEditorActivity"
+37-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:31:13-80
+38            android:label="Assessment Editor"
+38-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:32:13-46
+39            android:theme="@style/AppTheme.NoActionBar" >
+39-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:33:13-56
+40            <meta-data
+40-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:34:13-36:82
+41                android:name="android.support.PARENT_ACTIVITY"
+41-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:35:17-63
+42                android:value="com.example.wguc196stephenw.CourseListActivity" />
+42-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:36:17-79
+43        </activity>
+44        <activity
+44-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:38:9-46:20
+45            android:name="com.example.wguc196stephenw.AssessmentListActivity"
+45-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:39:13-78
+46            android:label="Assessment List"
+46-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:40:13-44
+47            android:parentActivityName="com.example.wguc196stephenw.MainActivity"
+47-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:41:13-82
+48            android:theme="@style/AppTheme.NoActionBar" >
+48-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:42:13-56
+49            <meta-data
+49-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:34:13-36:82
+50                android:name="android.support.PARENT_ACTIVITY"
+50-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:35:17-63
+51                android:value="com.example.wguc196stephenw.CourseListActivity" />
+51-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:36:17-79
+52        </activity>
+53        <activity
+53-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:47:9-54:20
+54            android:name="com.example.wguc196stephenw.NoteEditorActivity"
+54-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:48:13-74
+55            android:label="Note Editor"
+55-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:49:13-40
+56            android:theme="@style/AppTheme.NoActionBar" >
+56-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:50:13-56
+57            <meta-data
+57-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:34:13-36:82
+58                android:name="android.support.PARENT_ACTIVITY"
+58-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:35:17-63
+59                android:value="com.example.wguc196stephenw.AssessmentListActivity" />
+59-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:36:17-79
+60        </activity>
+61        <activity
+61-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:55:9-62:20
+62            android:name="com.example.wguc196stephenw.MentorEditorActivity"
+62-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:56:13-76
+63            android:label="Mentor Editor"
+63-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:57:13-42
+64            android:theme="@style/AppTheme.NoActionBar" >
+64-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:58:13-56
+65            <meta-data
+65-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:34:13-36:82
+66                android:name="android.support.PARENT_ACTIVITY"
+66-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:35:17-63
+67                android:value="com.example.wguc196stephenw.CourseListActivity" />
+67-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:36:17-79
+68        </activity>
+69        <activity
+69-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:63:9-71:20
+70            android:name="com.example.wguc196stephenw.MentorListActivity"
+70-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:64:13-74
+71            android:label="Mentor List"
+71-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:65:13-40
+72            android:parentActivityName="com.example.wguc196stephenw.MainActivity"
+72-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:66:13-82
+73            android:theme="@style/AppTheme.NoActionBar" >
+73-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:67:13-56
+74            <meta-data
+74-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:34:13-36:82
+75                android:name="android.support.PARENT_ACTIVITY"
+75-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:35:17-63
+76                android:value="com.example.wguc196stephenw.CourseListActivity" />
+76-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:36:17-79
+77        </activity>
+78        <activity
+78-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:72:9-79:20
+79            android:name="com.example.wguc196stephenw.CourseEditorActivity"
+79-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:73:13-76
+80            android:label="Course Editor"
+80-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:74:13-42
+81            android:theme="@style/AppTheme.NoActionBar" >
+81-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:75:13-56
+82            <meta-data
+82-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:34:13-36:82
+83                android:name="android.support.PARENT_ACTIVITY"
+83-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:35:17-63
+84                android:value="com.example.wguc196stephenw.TermListActivity" />
+84-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:36:17-79
+85        </activity>
+86        <activity
+86-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:80:9-88:20
+87            android:name="com.example.wguc196stephenw.CourseListActivity"
+87-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:81:13-74
+88            android:label="@string/title_activity_course_list"
+88-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:82:13-63
+89            android:parentActivityName="com.example.wguc196stephenw.MainActivity"
+89-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:83:13-82
+90            android:theme="@style/AppTheme.NoActionBar" >
+90-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:84:13-56
+91            <meta-data
+91-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:34:13-36:82
+92                android:name="android.support.PARENT_ACTIVITY"
+92-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:35:17-63
+93                android:value="com.example.wguc196stephenw.TermListActivity" />
+93-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:36:17-79
+94        </activity>
+95        <activity
+95-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:89:9-96:20
+96            android:name="com.example.wguc196stephenw.TermEditorActivity"
+96-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:90:13-74
+97            android:label="@string/title_activity_term_editor"
+97-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:91:13-63
+98            android:theme="@style/AppTheme.NoActionBar" >
+98-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:92:13-56
+99            <meta-data
+99-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:34:13-36:82
+100                android:name="android.support.PARENT_ACTIVITY"
+100-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:35:17-63
+101                android:value="com.example.wguc196stephenw.TermListActivity" />
+101-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:36:17-79
+102        </activity>
+103        <activity
+103-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:97:9-106:20
+104            android:name="com.example.wguc196stephenw.MainActivity"
+104-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:98:13-68
+105            android:label="Term Tracker C196"
+105-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:99:13-46
+106            android:theme="@style/AppTheme.NoActionBar" >
+106-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:100:13-56
+107            <intent-filter>
+107-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:101:13-105:29
+108                <action android:name="android.intent.action.MAIN" />
+108-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:102:17-69
+108-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:102:25-66
+109
+110                <category android:name="android.intent.category.LAUNCHER" />
+110-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:104:17-77
+110-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:104:27-74
+111            </intent-filter>
+112        </activity>
+113        <activity
+113-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:107:9-115:20
+114            android:name="com.example.wguc196stephenw.TermListActivity"
+114-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:108:13-72
+115            android:label="@string/title_activity_term_list"
+115-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:109:13-61
+116            android:parentActivityName="com.example.wguc196stephenw.MainActivity"
+116-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:110:13-82
+117            android:theme="@style/WGUC196" >
+117-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:111:13-43
+118            <meta-data
+118-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:34:13-36:82
+119                android:name="android.support.PARENT_ACTIVITY"
+119-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:35:17-63
+120                android:value="com.example.wguc196stephenw.MainActivity" />
+120-->C:\Users\Stephen\Desktop\Mobile App Final\wgu-final-mobile-app - Before Edit - Cur Ver\WGU-C196-master\app\src\main\AndroidManifest.xml:36:17-79
+121        </activity>
+122
+123        <service
+123-->[androidx.room:room-runtime:2.2.2] C:\Users\Stephen\.gradle\caches\transforms-2\files-2.1\16bae69b8e7536ae1a363b2679cefb07\room-runtime-2.2.2\AndroidManifest.xml:25:9-27:40
+124            android:name="androidx.room.MultiInstanceInvalidationService"
+124-->[androidx.room:room-runtime:2.2.2] C:\Users\Stephen\.gradle\caches\transforms-2\files-2.1\16bae69b8e7536ae1a363b2679cefb07\room-runtime-2.2.2\AndroidManifest.xml:26:13-74
+125            android:exported="false" />
+125-->[androidx.room:room-runtime:2.2.2] C:\Users\Stephen\.gradle\caches\transforms-2\files-2.1\16bae69b8e7536ae1a363b2679cefb07\room-runtime-2.2.2\AndroidManifest.xml:27:13-37
+126
+127        <provider
+127-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Stephen\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+128            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+128-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Stephen\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+129            android:authorities="com.example.wguc196stephenw.lifecycle-process"
+129-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Stephen\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+130            android:exported="false"
+130-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Stephen\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+131            android:multiprocess="true" />
+131-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Stephen\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+132    </application>
+133
+134</manifest>

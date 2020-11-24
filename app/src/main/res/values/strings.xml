@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Term Scheduler / Viewer</string>
+    <string name="menu_terms">View All My Terms</string>
+    <string name="menu_courses">View All My Courses</string>
+    <string name="menu_assessments">View All My Assessments</string>
+    <string name="menu_settings">Change Settings</string>
+    <string name="nav_header_title">Student</string>
+    <string name="nav_header_subtitle">My Course</string>
+    <string name="navigation_drawer_open">Open nav</string>
+    <string name="navigation_drawer_close">Close nav</string>
+    <string name="title_activity_term_list">My Term List</string>
+    <string name="channel_name">My Term Tracker</string>
+    <string name="channel_description">Tracker Alert</string>
+    <string name="channel_id">C196 - Mob App</string>
+    <string name="terms_button">See All Of My Terms</string>
+    <string name="courses_button">See All Of My Courses</string>
+    <string name="assessments_button">See All Of My Assessments</string>
+    <string name="term_dates">Term Calendar</string>
+    <string name="term_title">Title of My Term</string>
+    <string name="menu_home">Go Home</string>
+    <string name="menu_delete_all_terms">Delete All Of My Terms</string>
+    <string name="save_button">Save This</string>
+    <string name="start_date">Start This Date</string>
+    <string name="start_button">Start </string>
+    <string name="end_date">End</string>
+    <string name="end_button">End</string>
+    <string name="term_edit">Edit My Term</string>
+    <string name="course_dates">Dates of My Course</string>
+    <string name="course_title">Title of my Course</string>
+    <string name="course_list">List of Courses</string>
+    <string name="add_course">Add My Course</string>
+    <string name="save">Save</string>
+    <string name="mentor_list">All of My Mentors</string>
+    <string name="add_mentor">Add A Mentor</string>
+    <string name="course_status">Course - Status</string>
+    <string name="mentor_name">My Mentor Name</string>
+    <string name="course_term_id">ID of Term</string>
+    <string name="menu_delete_all_courses">Delete All My Courses</string>
+    <string name="title_activity_course_list">List of Courses</string>
+    <string name="note_title">Title of My Note</string>
+    <string name="phone_label">Phone Number</string>
+    <string name="email_label">E - mail</string>
+    <string name="email_address">Email Address</string>
+    <string name="mentor_email_label">Email Address Of Mentor</string>
+    <string name="mentor_phone_label">Phone Num Of Mentor</string>
+    <string name="phone_number">Phone Num</string>
+    <string name="assessment_list">List of Assessments</string>
+    <string name="add_assessment">Add An Assessment</string>
+    <string name="due_button">Due Date</string>
+    <string name="note_list">List of Notes</string>
+    <string name="assessment_type">Ass. Type</string>
+    <string name="assessment_name">Name of Ass.</string>
+    <string name="menu_delete_all_assessments">Delete All Of My Assessments</string>
+    <string name="menu_delete_all_mentors">Delete All Of My Mentors</string>
+    <string name="menu_delete_all_notes">Delete All Of My Notes</string>
+    <string name="phone_hint">(111) 111-0000</string>
+    <string name="note_text">Note Content</string>
+    <string name="alert">My Alert</string>
+    <string name="title_activity_term_editor">Edit My Term</string>
+    <string name="action_settings">All My Terms</string>
+
+    <string name="Term_edit_text_warning">Do not edit term after courses assigned. Term considered final. Courses will be lost. </string>
+    <string name="Term_edit_text_warning_add_courses">Save Term before adding courses. Ensure Term is final.</string>
+
+    <string name="Course_edit_text_warning">Do not edit course after mentor/assessments assigned. Course considered final. Mentors/Assessments will be lost. </string>
+    <string name="Course_edit_text_warning_add_mentor">Save course before adding mentors. Ensure course is final.</string>
+    <string name="Course_edit_text_warning_add_assessment">Save course before adding assessments. Ensure course is final.</string>
+
+    <string name="Assessment_edit_text_warning">Do not edit assessment after notes assigned. Assessment considered final. Notes will be lost.</string>
+    <string name="Assessment_edit_text_warning_add_notes">Save assessment before adding notes. Ensure assessment is final.</string>
+
+    <string-array name="status">
+        <item>Going to Take</item>
+        <item>Current - In Progress</item>
+        <item>Finished - Completed</item>
+        <item>Dropped</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>OA - Obj. Ass.</item>
+        <item>PA - Perf. Ass.</item>
+    </string-array>
+
+</resources>

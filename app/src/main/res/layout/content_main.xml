@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp">
+
+    <Button
+        android:id="@+id/courses_button"
+        android:layout_width="271dp"
+        android:layout_height="141dp"
+        android:layout_centerInParent="true"
+        android:onClick="showCourseList"
+        android:background="@color/colorButton"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+
+        android:text="@string/courses_button">
+
+    </Button>
+
+    <Button
+        android:id="@+id/terms_button"
+        android:layout_width="271dp"
+        android:layout_height="141dp"
+        android:layout_above="@id/courses_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="showTermList"
+        android:background="@color/colorButton"
+        android:text="@string/terms_button"></Button>
+
+    <Button
+        android:id="@+id/assessments_button"
+        android:layout_width="271dp"
+        android:layout_height="141dp"
+        android:layout_below="@+id/courses_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorButton"
+        android:onClick="showAssessmentList"
+        android:text="@string/assessments_button">
+
+    </Button>
+
+</RelativeLayout>
+
+   

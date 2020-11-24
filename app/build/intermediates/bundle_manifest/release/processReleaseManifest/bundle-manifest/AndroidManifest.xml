@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wguc196stephenw"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/term_edit"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <receiver
+            android:name="com.example.wguc196stephenw.NotificationReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+
+                <!-- The actions you wish to listen to, below is an example -->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.wguc196stephenw.AssessmentEditorActivity"
+            android:label="Assessment Editor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wguc196stephenw.CourseListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.wguc196stephenw.AssessmentListActivity"
+            android:label="Assessment List"
+            android:parentActivityName="com.example.wguc196stephenw.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wguc196stephenw.CourseListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.wguc196stephenw.NoteEditorActivity"
+            android:label="Note Editor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wguc196stephenw.AssessmentListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.wguc196stephenw.MentorEditorActivity"
+            android:label="Mentor Editor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wguc196stephenw.CourseListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.wguc196stephenw.MentorListActivity"
+            android:label="Mentor List"
+            android:parentActivityName="com.example.wguc196stephenw.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wguc196stephenw.CourseListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.wguc196stephenw.CourseEditorActivity"
+            android:label="Course Editor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wguc196stephenw.TermListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.wguc196stephenw.CourseListActivity"
+            android:label="@string/title_activity_course_list"
+            android:parentActivityName="com.example.wguc196stephenw.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wguc196stephenw.TermListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.wguc196stephenw.TermEditorActivity"
+            android:label="@string/title_activity_term_editor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wguc196stephenw.TermListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.wguc196stephenw.MainActivity"
+            android:label="Term Tracker C196"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.wguc196stephenw.TermListActivity"
+            android:label="@string/title_activity_term_list"
+            android:parentActivityName="com.example.wguc196stephenw.MainActivity"
+            android:theme="@style/WGUC196" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wguc196stephenw.MainActivity" />
+        </activity>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.wguc196stephenw.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
